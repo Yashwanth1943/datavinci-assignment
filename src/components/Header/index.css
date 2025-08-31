@@ -1,0 +1,60 @@
+.header {
+    width: 100%;
+    background-color: #fff;
+    color: black;
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.header-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.header-nav {
+    display: flex;
+    gap: 24px;
+}
+
+.header-nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+
+.header-nav a:hover {
+    color: #00bcd4;
+}
+
+.search-bar {
+  width: 254px;
+  height: 41px;
+  border-radius: 50px;
+  border: 1px solid #292929;
+  padding: 0 15px;
+  outline: none;
+}
+
+.search-bar::placeholder{
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    leading-trim: NONE;
+    line-height: 14.3px;
+    letter-spacing: 1.95px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #292929;
+}
+
+.righrt-side-nav {
+    display: flex;
+    gap: 24px;
+}
